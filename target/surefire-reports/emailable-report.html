@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi">0</td><td class="numi">56.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="20">DemoMaven.MavenTest.OflineTest</td><td><a href="#m1"><b>Click_On_AddUser_Btn</b> (Unit) </a></td><td class="numi">1</td><td>1550751535115</td><td class="numi">2911</td></tr><tr class="passedodd"><td><a href="#m2"><b>Fill_Form</b> (Unit) </a></td><td class="numi">1</td><td>1550751538026</td><td class="numi">14730</td></tr><tr class="passedodd"><td><a href="#m3"><b>Password</b> (Regression) </a></td><td class="numi">1</td><td>1550751507528</td><td class="numi">96</td></tr><tr class="passedodd"><td><a href="#m4"><b>SigninSession</b> (Regression) </a></td><td class="numi">1</td><td>1550751507428</td><td class="numi">48</td></tr><tr class="passedodd"><td><a href="#m5"><b>Username</b> (Regression) </a></td><td class="numi">1</td><td>1550751507476</td><td class="numi">52</td></tr><tr class="passedodd"><td><a href="#m6"><b>Verify_Url</b> (Regression) </a></td><td class="numi">1</td><td>1550751507169</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m7"><b>Verify_Url_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1550751521641</td><td class="numi">24</td></tr><tr class="passedodd"><td><a href="#m8"><b>blank_username_password</b> (Regression) </a></td><td class="numi">1</td><td>1550751508080</td><td class="numi">476</td></tr><tr class="passedodd"><td><a href="#m9"><b>check_Button_color</b> (Regression) </a></td><td class="numi">1</td><td>1550751507624</td><td class="numi">271</td></tr><tr class="passedodd"><td><a href="#m10"><b>check_Links</b> (Regression) </a></td><td class="numi">1</td><td>1550751507895</td><td class="numi">185</td></tr><tr class="passedodd"><td><a href="#m11"><b>clickOn_OperatorBtn</b> (Unit) </a></td><td class="numi">1</td><td>1550751552756</td><td class="numi">10344</td></tr><tr class="passedodd"><td><a href="#m12"><b>click_OnUser</b> (Unit) </a></td><td class="numi">1</td><td>1550751523796</td><td class="numi">3170</td></tr><tr class="passedodd"><td><a href="#m13"><b>getTableData</b> (Unit) </a></td><td class="numi">1</td><td>1550751526966</td><td class="numi">8149</td></tr><tr class="passedodd"><td><a href="#m14"><b>heading_Dashboard</b> (Smoke) </a></td><td class="numi">1</td><td>1550751521693</td><td class="numi">2103</td></tr><tr class="passedodd"><td><a href="#m15"><b>invalidusername_password</b> (Regression) </a></td><td class="numi">1</td><td>1550751508556</td><td class="numi">4937</td></tr><tr class="passedodd"><td><a href="#m16"><b>logOutBtn</b> (Unit) </a></td><td class="numi">1</td><td>1550751563100</td><td class="numi">591</td></tr><tr class="passedodd"><td><a href="#m17"><b>validUsername_Password</b> (Resgression) </a></td><td class="numi">1</td><td>1550751513493</td><td class="numi">8148</td></tr><tr class="passedodd"><td><a href="#m18"><b>verifyApplicationTitle_DashBoard</b> (Smoke) </a></td><td class="numi">1</td><td>1550751521669</td><td class="numi">24</td></tr><tr class="passedodd"><td><a href="#m19"><b>verifyPageTitle</b> (Regression) </a></td><td class="numi">1</td><td>1550751507185</td><td class="numi">16</td></tr><tr class="passedodd"><td><a href="#m20"><b>verify_title</b> (Regression) </a></td><td class="numi">1</td><td>1550751507201</td><td class="numi">223</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">DemoMaven.MavenTest.OflineTest:check_Links</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">DemoMaven.MavenTest.OflineTest:Verify_Url_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">DemoMaven.MavenTest.OflineTest:Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">DemoMaven.MavenTest.OflineTest:validUsername_Password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">DemoMaven.MavenTest.OflineTest:clickOn_OperatorBtn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">DemoMaven.MavenTest.OflineTest:verify_title</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">DemoMaven.MavenTest.OflineTest:Username</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">DemoMaven.MavenTest.OflineTest:getTableData</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">DemoMaven.MavenTest.OflineTest:heading_Dashboard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">DemoMaven.MavenTest.OflineTest:click_OnUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">DemoMaven.MavenTest.OflineTest:verifyPageTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">DemoMaven.MavenTest.OflineTest:Verify_Url</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">DemoMaven.MavenTest.OflineTest:Fill_Form</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">DemoMaven.MavenTest.OflineTest:SigninSession</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">DemoMaven.MavenTest.OflineTest:blank_username_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">DemoMaven.MavenTest.OflineTest:Click_On_AddUser_Btn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">DemoMaven.MavenTest.OflineTest:logOutBtn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">DemoMaven.MavenTest.OflineTest:check_Button_color</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">DemoMaven.MavenTest.OflineTest:invalidusername_password</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">DemoMaven.MavenTest.OflineTest:verifyApplicationTitle_DashBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

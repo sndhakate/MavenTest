@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56542" started-at="2019-02-21T12:18:27Z" finished-at="2019-02-21T12:19:23Z">
+    <groups>
+      <group name="Resgression">
+        <method signature="OflineTest.validUsername_Password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="validUsername_Password" class="DemoMaven.MavenTest.OflineTest"/>
+      </group> <!-- Resgression -->
+      <group name="Regression">
+        <method signature="OflineTest.Password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Password" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.SigninSession()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="SigninSession" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.Username()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Username" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.Verify_Url()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Verify_Url" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.blank_username_password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="blank_username_password" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.check_Button_color()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="check_Button_color" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.check_Links()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="check_Links" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.invalidusername_password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="invalidusername_password" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.verifyPageTitle()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verifyPageTitle" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.verify_title()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verify_title" class="DemoMaven.MavenTest.OflineTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="OflineTest.Verify_Url_DashBoard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Verify_Url_DashBoard" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.heading_Dashboard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="heading_Dashboard" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.verifyApplicationTitle_DashBoard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verifyApplicationTitle_DashBoard" class="DemoMaven.MavenTest.OflineTest"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="OflineTest.Click_On_AddUser_Btn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Click_On_AddUser_Btn" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.Fill_Form()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Fill_Form" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.clickOn_OperatorBtn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="clickOn_OperatorBtn" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.click_OnUser()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="click_OnUser" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.getTableData()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="getTableData" class="DemoMaven.MavenTest.OflineTest"/>
+        <method signature="OflineTest.logOutBtn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="logOutBtn" class="DemoMaven.MavenTest.OflineTest"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Test" duration-ms="56542" started-at="2019-02-21T12:18:27Z" finished-at="2019-02-21T12:19:23Z">
+      <class name="DemoMaven.MavenTest.OflineTest">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="setup_Browser" is-config="true" duration-ms="29013" started-at="2019-02-21T17:47:58Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="Verify_Url()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Verify_Url" duration-ms="16" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verifyPageTitle" duration-ms="16" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="verify_title()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verify_title" duration-ms="223" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_title -->
+        <test-method status="PASS" signature="SigninSession()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="SigninSession" duration-ms="48" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninSession -->
+        <test-method status="PASS" signature="Username()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Username" duration-ms="52" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Username -->
+        <test-method status="PASS" signature="Password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Password" duration-ms="96" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Password -->
+        <test-method status="PASS" signature="check_Button_color()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="check_Button_color" duration-ms="271" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="PASS" signature="check_Links()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="check_Links" duration-ms="185" started-at="2019-02-21T17:48:27Z" finished-at="2019-02-21T17:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="blank_username_password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="blank_username_password" duration-ms="476" started-at="2019-02-21T17:48:28Z" finished-at="2019-02-21T17:48:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="PASS" signature="invalidusername_password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="invalidusername_password" duration-ms="4937" started-at="2019-02-21T17:48:28Z" finished-at="2019-02-21T17:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="PASS" signature="validUsername_Password()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="validUsername_Password" duration-ms="8148" started-at="2019-02-21T17:48:33Z" finished-at="2019-02-21T17:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsername_Password -->
+        <test-method status="PASS" signature="Verify_Url_DashBoard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Verify_Url_DashBoard" duration-ms="24" started-at="2019-02-21T17:48:41Z" finished-at="2019-02-21T17:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_DashBoard -->
+        <test-method status="PASS" signature="verifyApplicationTitle_DashBoard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="verifyApplicationTitle_DashBoard" duration-ms="24" started-at="2019-02-21T17:48:41Z" finished-at="2019-02-21T17:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle_DashBoard -->
+        <test-method status="PASS" signature="heading_Dashboard()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="heading_Dashboard" duration-ms="2103" started-at="2019-02-21T17:48:41Z" finished-at="2019-02-21T17:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heading_Dashboard -->
+        <test-method status="PASS" signature="click_OnUser()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="click_OnUser" duration-ms="3170" started-at="2019-02-21T17:48:43Z" finished-at="2019-02-21T17:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_OnUser -->
+        <test-method status="PASS" signature="getTableData()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="getTableData" duration-ms="8149" started-at="2019-02-21T17:48:46Z" finished-at="2019-02-21T17:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableData -->
+        <test-method status="PASS" signature="Click_On_AddUser_Btn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Click_On_AddUser_Btn" duration-ms="2911" started-at="2019-02-21T17:48:55Z" finished-at="2019-02-21T17:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_AddUser_Btn -->
+        <test-method status="PASS" signature="Fill_Form()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="Fill_Form" duration-ms="14730" started-at="2019-02-21T17:48:58Z" finished-at="2019-02-21T17:49:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_Form -->
+        <test-method status="PASS" signature="clickOn_OperatorBtn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="clickOn_OperatorBtn" duration-ms="10344" started-at="2019-02-21T17:49:12Z" finished-at="2019-02-21T17:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_OperatorBtn -->
+        <test-method status="PASS" signature="logOutBtn()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="logOutBtn" duration-ms="591" started-at="2019-02-21T17:49:23Z" finished-at="2019-02-21T17:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutBtn -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:DemoMaven.MavenTest.OflineTest@6bf256fa]" name="close_Browse" is-config="true" duration-ms="1506" started-at="2019-02-21T17:49:24Z" finished-at="2019-02-21T17:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+      </class> <!-- DemoMaven.MavenTest.OflineTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
